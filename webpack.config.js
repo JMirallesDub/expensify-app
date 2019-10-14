@@ -1,6 +1,6 @@
 
 module.exports = {
-    entry: './src/playground/redux-101.js',
+    entry: './src/playground/redux-expensify.js',
     output: {
         path: __dirname + '/public',
         filename: 'budle.js'
