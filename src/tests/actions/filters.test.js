@@ -26,7 +26,7 @@ test('should generated text filter action object with text', () => {
     });
 });
 
-test('should gnerated text filter action object without text', () => {
+test('should set text filter action object without text', () => {
     const action = setTextFilter();
     expect(action).toEqual({
         type: 'SET_TEXT_FILTER',
@@ -34,14 +34,14 @@ test('should gnerated text filter action object without text', () => {
     });
 });
 
-test('should generate sort by date filter action', () => {
+test('should set sort by date filter action', () => {
     const action = sortByDate();
     expect(action).toEqual({
         type: 'SORT_BY_DATE'
     });
 });
 
-test('should generate sort by amount filter action', () => {
+test('should set sort by amount filter action', () => {
     const action = sortByAmount();
     expect(action).toEqual({
         type: 'SORT_BY_AMOUNT'
