@@ -1,3 +1,5 @@
+//Fake data
+
 import moment from 'moment';
 
 export default [{

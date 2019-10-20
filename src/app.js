@@ -18,10 +18,6 @@ const store = configureStore();
 //     console.log(visibleExpenses);
 // });
 
-store.dispatch(addExpense({ description: 'Water bill', amount: 5000 }));
-store.dispatch(addExpense({ description: 'Gas bill' }));
-store.dispatch(addExpense({ description: 'Rent', amount: 109500 }));
-
 // store.dispatch(setTextFilter('gas'));
 
 const state = store.getState();
