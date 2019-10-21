@@ -1,12 +1,10 @@
-//Fake data
-
 import moment from 'moment';
 
 export default [{
     id: '1',
     description: 'Gum',
     note: '',
-    amount: 5,
+    amount: 195,
     createdAt: 0
 },
 {
@@ -23,3 +21,5 @@ export default [{
     amount: 4500,
     createdAt: moment(0).add(4, 'days').valueOf()
 }];
+
+
